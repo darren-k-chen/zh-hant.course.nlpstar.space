@@ -365,13 +365,13 @@ Multi-head attention機制目的是通過“capture different attentive informat
 							<div class="m-b30" id="curriculum">
 								<h4>課程章節列表（更新至第50課）</h4>
 								<ul class="curriculum-list">
-										<li>
+										<!-- <li>
 											<h5>第1章: 貝葉斯理論下的Transformer揭秘</h5>
 											<ul>
 												<li>
 													<div class="curriculum-list-box">
 														1，基於Bayesian Theory，融Hard Attention、Soft Attention、Self-Attention、Multi-head Attention於一身的Transformer架構
-													</div></li>
+													</div></li> -->
 													<!-- <span>120 minutes</span> -->
 												<!-- <li>
 													<div class="curriculum-list-box">
@@ -385,7 +385,7 @@ Multi-head attention機制目的是通過“capture different attentive informat
 													</div>
 													<span>85 minutes</span>
 												</li> -->
-												<li><div class="curriculum-list-box">
+												<!-- <li><div class="curriculum-list-box">
 2，為什麼說拋棄了傳統模型（例如RNN、 LSTM、CNN等）的Transformer拉開了非序列化模型時代的序幕？
 </div></li><li><div class="curriculum-list-box">
 
@@ -500,6 +500,121 @@ Multi-head attention機制目的是通過“capture different attentive informat
 										32，視覺化Attention源碼實現及剖析
 </div></li>
 </ul></li><li><h5>第3章: 細說Language Model內幕及Transformer XL源碼實現 ...（聯絡課程導師獲取後續章節資料）
+									</h5></li> -->
+									<li><h5>
+									第1課：Rasa 3.x Internals解密之Retrieval Model剖析
+									</h5><ul>
+									 <li><div class="curriculum-list-box">
+									1，什麼是One Graph to Rule them All
+									</div></li><li><div class="curriculum-list-box">
+									2，為什麼工業級對話機器人都是Stateful Computations？
+									</div></li><li><div class="curriculum-list-box">
+									3，Rasa引入Retrieval Model內幕解密及問題解析
+									</div></li></ul>
+									</h5></li>
+
+
+
+									<li><h5>
+									第2課：Rasa 3.x Internals解密之去掉對話系統的Intent內幕剖析
+									</h5><ul>
+									 <li><div class="curriculum-list-box">
+									1，從inform intent的角度解析為何要去掉intent
+									</div></li><li><div class="curriculum-list-box">
+									2，從Retrieval Intent的角度說明為何要去掉intent
+									</div></li><li><div class="curriculum-list-box">
+									3，從Multi intents的角度說明為何要去掉intent
+									</div></li><li><div class="curriculum-list-box">
+									4，為何有些intent是無法定義的？
+									</div></li></ul>
+									</h5></li>
+
+									<li><h5>
+									第3課：Rasa 3.x Internals解密之去掉對話系統的End2End Learning內幕剖析
+									</h5><ul>
+									 <li><div class="curriculum-list-box">
+									1，How end-to-end learning in Rasa works
+									</div></li><li><div class="curriculum-list-box">
+									2，Contextual NLU解析
+									</div></li><li><div class="curriculum-list-box">
+									3，Fully end-to-end assistants
+									</div></li></ul>
+									</h5></li>
+
+									<li><h5>
+									第4課：Rasa 3.x Internals解密之全新一代可伸縮DAG圖架構內幕
+									</h5><ul>
+									 <li><div class="curriculum-list-box">
+									1，傳統的NLU/Policies架構問題剖析
+									</div></li><li><div class="curriculum-list-box">
+									2，面向業務對話機器人的DAG圖架構
+									</div></li><li><div class="curriculum-list-box">
+									3，DAGs with Caches解密
+									</div></li><li><div class="curriculum-list-box">
+									4，Example及Migration注意點
+									</div></li></ul>
+									</h5></li>
+
+									<li><h5>
+									第5課：Rasa 3.x Internals解密之定制Graph NLU及Policies組件內幕
+									</h5><ul>
+									 <li><div class="curriculum-list-box">
+									1，基於Rasa定制Graph Component的四大要求分析
+									</div></li><li><div class="curriculum-list-box">
+									2，Graph Components解析
+									</div></li><li><div class="curriculum-list-box">
+									3，Graph Components原始程式碼示範
+									</div></li></ul>
+									</h5></li>
+
+
+									<li><h5>
+									第6課：Rasa 3.x Internals解密之自訂GraphComponent內幕
+									</h5><ul>
+									 <li><div class="curriculum-list-box">
+									1，從Python角度分析GraphComponent介面
+									</div></li><li><div class="curriculum-list-box">
+									2，自訂模型的create和load內幕詳解
+									</div></li><li><div class="curriculum-list-box">
+									3，自訂模型的languages及Packages支援
+									</div></li></ul>
+									</h5></li>
+
+									<li><h5>
+									第7課：Rasa 3.x Internals解密之自訂群組件Persistence源碼解析
+									</h5><ul>
+									 <li><div class="curriculum-list-box">
+									1，自訂對話機器人元件代碼示例分析
+									</div></li><li><div class="curriculum-list-box">
+									2，Rasa中Resource源碼逐行解析
+									</div></li><li><div class="curriculum-list-box">
+									3，Rasa中ModelStorage、ModelMetadata等逐行解析
+									</div></li></ul>
+									</h5></li>
+
+									<li><h5>
+									第8課：Rasa 3.x Internals解密之Custom Graph Components代碼實戰
+									</h5><ul>
+									 <li><div class="curriculum-list-box">
+									1，自訂Graph Components步驟解析
+									</div></li><li><div class="curriculum-list-box">
+									2，Dense Message Featurizer完整源碼實現
+									</div></li><li><div class="curriculum-list-box">
+									3，Sparse Message Featurizer完整源碼實現
+									</div></li></ul>
+									</h5></li>
+
+									<li><h5>
+									第9課：Rasa 3.x Internals解密之TED Policy完整源碼剖析
+									</h5><ul>
+									 <li><div class="curriculum-list-box">
+									1，TEDPolicy父類Policy完整代碼解析
+									</div></li><li><div class="curriculum-list-box">
+									2，TEDPolicy完整代碼解析
+									</div></li><li><div class="curriculum-list-box">
+									3，繼承自TransformerRasaModel的TED完整代碼解析
+
+									</div></li></ul>
 									</h5></li>
 
 											<!-- <li><h5>第3章: 細說Language Model內幕及Transformer XL源碼實現
